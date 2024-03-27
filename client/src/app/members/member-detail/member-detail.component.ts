@@ -10,7 +10,7 @@ import { GalleryItem, GalleryModule, ImageItem } from 'ng-gallery';
   selector: 'app-member-detail',
   standalone: true,
   templateUrl: './member-detail.component.html',
-  styleUrl: './member-detail.component.css',
+  styleUrls: ['./member-detail.component.css'],
   imports: [CommonModule, TabsModule, GalleryModule]
 })
 export class MemberDetailComponent implements OnInit {
